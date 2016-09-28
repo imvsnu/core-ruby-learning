@@ -1,6 +1,9 @@
 class Customer
+	# @@cust_no is the example of class variable
 	@@cust_no = 0
 	def initialize(id,name,address)
+		# here id, name, address is the example of local variable
+		# @cust_id, @cust_name, @cust_address are the examples of instance variables
 		@cust_id = id
 		@cust_name = name
 		@cust_address = address
