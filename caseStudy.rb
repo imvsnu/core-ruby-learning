@@ -9,7 +9,7 @@ class Customer
 		@cust_address = address
 	end
 	def display_details
-		puts "customer id = #{@cust_id}, customer name = #{@cust_name}, customer address = #{@cust_address} "
+	    puts "customer id = #{@cust_id}, customer name = #{@cust_name}, customer address = #{@cust_address} "
 	end
 	def total_no_of_customers
 		@@cust_no = @@cust_no + 1
