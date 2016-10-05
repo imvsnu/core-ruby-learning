@@ -1,6 +1,7 @@
 module Moral
-	very_bad = 0
-	bad = 1
+	# constant name should be uppercase
+	VERY_BAD = 0
+	BAD = 1
 	def Moral.sin(badness)
 		puts badness
 	end
