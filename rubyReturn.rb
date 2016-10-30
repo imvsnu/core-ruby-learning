@@ -6,3 +6,4 @@ def rubyReturn
 end
 var = rubyReturn
 puts var
+puts "#{var}" # produces the same result

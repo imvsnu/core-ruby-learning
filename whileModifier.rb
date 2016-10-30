@@ -5,5 +5,5 @@ begin
 	puts "#{i}"
 	n = n + 1
 	i += 1
-end while n < 6
+end while n < 6 # this is while Modifier
 

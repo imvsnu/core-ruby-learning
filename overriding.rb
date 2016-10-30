@@ -7,7 +7,7 @@ class Box
 	# instance method
 	# this method got overridden
 	def getArea
-		@width * @height
+		puts "#{@width * @height}"
 	end
 end
 # define a subclass

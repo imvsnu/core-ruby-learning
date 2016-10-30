@@ -5,9 +5,9 @@ class Box
 		@width, @height = w, h
 	end
 	# instance method
-	def getArea
-		@width * @height
-	end
+	#def getArea
+		#@width * @height
+	#end
 end
 # define a subclass
 class BigBox < Box

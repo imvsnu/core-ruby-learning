@@ -20,11 +20,15 @@ class Box
     private :getWidth, :getHeight
     # instance method to print area
     def printArea
-    	@area = getWidth() * getHeight()
+    	@area = getWidth() * getHeight() # private methods are only accessible inside the class
     	puts "Big box area is :#{@area}"
     end
     # make it protected
-    protected :printArea
+    # protected :printArea
+    private :printArea # by making it private we can not access it directly from outside the class
+    def printArea1
+        printArea() # calling private method here
+    end
 end
 # create an object
 box = Box.new(10, 20)
@@ -32,4 +36,4 @@ box = Box.new(10, 20)
 a = box.getArea()
 puts "Area of the box is : #{a}"
 # try to call protected or methods
-box.printArea()
+box.printArea1()

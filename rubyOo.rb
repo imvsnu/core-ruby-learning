@@ -1,23 +1,23 @@
 # define a class
 class Box
 # constructor method
-def initialize(w,h)
-@width, @height = w, h
-end
-# accessor methods
-def getWidth
-@width
-end
-def getHeight
-@height
-end
-# setter methods
-def setWidth=(value)
-@width = value
-end
-def setHeight=(value)
-@height = value
-end
+	def initialize(w,h)
+	    @width, @height = w, h
+	end
+	# accessor methods
+	def getWidth
+	    @width
+	end
+	def getHeight
+	    @height
+	end
+	# setter methods
+	def setWidth=(value)
+	    @width = value
+	end
+	def setHeight=(value)
+	    @height = value
+	end 
 end
 # create an object
 box = Box.new(10, 20)

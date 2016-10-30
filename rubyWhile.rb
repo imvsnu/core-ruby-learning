@@ -10,7 +10,7 @@ while 1
 	puts "Do you want to continue:(y/n)"
 	b = gets.chomp
 	case b
-	when 'y'
+	when 'y' 
 		next
 	when 'n'
 		puts "program terminated..."

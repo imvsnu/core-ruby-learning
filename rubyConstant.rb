@@ -1,5 +1,5 @@
 class Constant
-	VAR1 = 100
+	VAR1 = 100 # constant name should be all uppercase
 	VAR2 = 200
 	def show
 		puts "first constant = #{VAR1}"

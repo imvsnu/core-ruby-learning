@@ -10,7 +10,7 @@ a+ - Open a file for reading and appending. The file is created if it does not e
 
 =end
 #creates new file named 'out_1.txt' with 'w' mode
-out_file = File.new("out_1.txt", "w")
+out_file = File.new("out_2.txt", "w")
 #write something to this file
 out_file.puts("write your stuff here")
 #file close

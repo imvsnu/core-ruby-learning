@@ -14,5 +14,5 @@ end
 # Create a new object
 h = Hello.new("Bishnu")
 
-# Output "Hello Ruby!"
+# Output "Hello Bishnu!"
 h.result

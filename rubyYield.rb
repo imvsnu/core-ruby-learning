@@ -5,7 +5,7 @@ def test
 	puts "Hello again"
 	yield
 end
-test{puts"I am also saying hello"}
+test{puts"I am also saying hello"} # yield will call this statement
 # another demonstration of yield statement
 puts "Another use of yield statement"
 def test1

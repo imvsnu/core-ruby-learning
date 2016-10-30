@@ -15,4 +15,6 @@ num2 = Array[6,7,8,9,10]
 puts num1
 puts num2
 digits = Array(50..60)
+alpha = Array('d'..'p')
 puts digits
+puts alpha

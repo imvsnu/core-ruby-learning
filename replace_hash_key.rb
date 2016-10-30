@@ -3,6 +3,7 @@ hash = {
   "two" => 2,
   "three" => 3
   }
+puts hash  
 #replace hash key with another
 puts "Enter hash key you want to replace"
 old_hash = gets.chomp

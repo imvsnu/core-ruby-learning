@@ -23,4 +23,4 @@ box2 = Box.new(30, 100)
 box3 = Box.new(3, 2)
 
 # call class method to print box count
-Box.printCount()
+Box.printCount() # not need any object to call class method, simply class calls it 

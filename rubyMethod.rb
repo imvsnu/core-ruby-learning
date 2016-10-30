@@ -1,10 +1,10 @@
-def text(a = "ruby", b = "python")
+def text(a = "ruby", b = "python") # default parameters
 	puts "I love #{a}!"
 	puts "I love #{b}!"
 end
 text
 text("java","C")
-def text1(c,d)
+def text1(c,d) # no default parameters
 	puts "I also love #{c}"
 	puts "I also love #{d}"
 end

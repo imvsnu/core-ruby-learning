@@ -2,11 +2,15 @@ puts "Enter size of array"
 n = gets.chomp.to_i
 h = Array.new
 for f in 0...n do
-  puts 'Enter element of array'
+  print 'Enter '
+  print f + 1
+  puts ' th element of array'
+  # puts 'Enter element of array'
   h[f] = gets.chomp.to_i 
 end
 puts "The elements of array are:"
 puts h
+# following code sorts the elements of array
 puts "The sorted list is:"
 n = n-1
 n.times do |i|

@@ -10,5 +10,5 @@ puts "Rejected values:" + rej.inspect
 digits.each do |f|
 	puts "#{f}"
 end
-r = digits.to_a # _a converts range to list
+r = digits.to_a # _a converts range to list as we can not print direct puts digits
 puts "#{r}"

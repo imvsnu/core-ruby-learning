@@ -1,3 +1,5 @@
+# this program shows clear difference
+# between class variable and instance variable
 class S
   @@k = 23
   @s = 15
@@ -7,7 +9,19 @@ class S
   def self.k
      @@k
   end
-
+  def l
+  	@l = 5 # this is instance variable
+  	puts "#{@l}"
+  	@@k
+  	puts "#{@@k}"
+  	@s # this will not be accessed here
+  	#if (@s != Null)
+    puts "#{@s}"
+    #else
+    #puts "empty variable"
+    #end
+  end
 end
-p S.s #15
+puts S.s #15
 p S.k #23
+S.new.l

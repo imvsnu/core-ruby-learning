@@ -3,5 +3,8 @@ class IM
     puts "This is instance method"
   end
 end
-IM.new.im
+a = IM.new
+a.im()
+# we can also call using
+#IM.new.im
 

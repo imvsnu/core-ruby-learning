@@ -1,4 +1,4 @@
-def magic(*test)
+def magic(*test) # this is magic parameter
 	for i in 0..test.length
 		puts test[i]
 	end
