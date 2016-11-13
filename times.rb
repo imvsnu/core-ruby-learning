@@ -8,4 +8,4 @@ for f in 0...n do
   h[f] = gets.chomp.to_i 
 end
 puts "The elements of array are:"
-puts h
+puts "#{h}"

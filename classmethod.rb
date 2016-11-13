@@ -12,3 +12,4 @@ end
 
 obj = Person.new 
 obj.age
+Person.name

@@ -1,9 +1,9 @@
 class Box
-	attr_accessor :width, :height
+	#attr_accessor :width, :height
 	def initialize(w, h) # constructor method
 		@width, @height = w, h
 	end
-	def getArea # instance method
+	def getArea() # instance method
 		@width * @height
 	end
 end

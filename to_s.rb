@@ -8,7 +8,7 @@ class Box
 	# define to_s method to return 
 	# string representation of object
 	def to_s
-		"(w:#{@width},h:#{@height})"
+		"(width is:#{@width},height is:#{@height})"
 	end
 end
 # create an object

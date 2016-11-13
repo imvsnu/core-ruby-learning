@@ -15,3 +15,4 @@ options[:font_size]  # => 10
 grades = Hash.new
 grades["Dorothy Doe"] = 9
 puts grades
+puts grades['Dorothy Doe']

@@ -9,6 +9,8 @@ class Box
 	def initialize(w,h)
 		# assign instance variables
 		@width, @height = w, h
+		puts "Width: #{@width}"
+		puts "Height: #{@height}"
 		@@count += 1
 	end
    

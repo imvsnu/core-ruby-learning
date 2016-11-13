@@ -1,0 +1,7 @@
+Here are few resources:Resources
+http://tryruby.org/
+Free resources:
+http://ruby-doc.org/
+http://­www.rubyist.net/­~slagell/ruby/­index.html http://­www-users.math.umd.ed­u/~dcarrera/ruby/­0.3/ http://­www.visibleworkings.c­om/little-ruby/ http://pine.fm/­LearnToProgram/ http://­www.sapphiresteel.com­/­The-Little-Book-Of-Ru­by http://­www.ruby-lang.org/en/­documentation/­quickstart/ http://­mislav.uniqpath.com/­poignant-guide/
+Recommended not-free book for beginner: http://­www.amazon.com/­Well-Grounded-Rubyist­-David-Black/dp/­1933988657/­ref=ntt_at_ep_dpt_1 Tutorial sites:
+http://­www.tutorialspoint.co­m/ruby/index.htm http://­www.codecademy.com/

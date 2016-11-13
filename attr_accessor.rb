@@ -8,6 +8,6 @@ class Person
 	end
 end
 person = Person.new
-person.name= "Arjun Bishnu"
+person.name= "Hello Bishnu"
 person.display
 

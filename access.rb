@@ -35,5 +35,5 @@ box = Box.new(10, 20)
 # call instance methods
 a = box.getArea()
 puts "Area of the box is : #{a}"
-# try to call protected or methods
+# try to call protected or private methods
 box.printArea1()
