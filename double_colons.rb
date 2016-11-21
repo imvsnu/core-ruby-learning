@@ -1,18 +1,19 @@
 # example
 class Dc
-	$A = 10
-	::C = 12
-	B = 11
+	$A = 10 # global Constant
+	::C = 12 # act as global Constant
+	B = 11 # local Constant
 end
-puts ::C
-puts Dc::B
-puts $A
+puts ::C # printing global Constant
+puts Dc::B # printing local Constant
+puts $A 
 # another example
 CONST = ' out there'
 class Inside_one
 	CONST = proc {' in there'}
 	def where_is_my_CONST
 	    ::CONST + ' inside one'
+	    # CONST + ' inside one'
 	end
 end
 class Inside_two
