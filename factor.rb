@@ -4,6 +4,7 @@ array = Array.new
 for i in 1..n
 	if (n % i == 0)
 		array << i
+		puts i
 	end
 end
 puts "The factors of #{n} are as follows:" 
