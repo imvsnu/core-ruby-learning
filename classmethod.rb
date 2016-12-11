@@ -13,3 +13,12 @@ end
 obj = Person.new 
 obj.age
 Person.name
+
+# we can also create as follow
+class Thing
+    def Thing.hello(name)
+        puts "Hello, #{name}!"
+    end
+end
+
+Thing.hello("Bishnu Basyal") 
